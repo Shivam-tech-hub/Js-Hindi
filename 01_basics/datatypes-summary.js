@@ -35,3 +35,31 @@ let myObj = {
  console.log(typeof bigNumber);
  console.log(typeof outsideTemp);
  console.log(typeof scorevalue);
+
+
+
+ // ++++++++++++++++++++++++++++++++++++++++++
+
+ // Stack (primitive), Heap (non-primitive)
+
+ let myYoutubename = "shivamdotcom"
+
+ let anotherName = myYoutubename
+ anothername = "chaiaurcode"
+
+ console.log("shivamdotcom")
+ console.log(anothername);
+
+ let user = {
+    email: "user@google.com"
+    upi: "user@ybl"
+ }
+
+ let userTwo = userOne
+
+ userTwo.email = "shivam@google.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
+
+
